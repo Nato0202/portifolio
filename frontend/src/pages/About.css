@@ -1,0 +1,31 @@
+.about {
+  padding-top: 5rem;
+  max-width: 56rem;
+  margin: 0 auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.about-title {
+  font-size: 2.25rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.about-paragraph {
+  font-size: 1.125rem;
+  color: #374151; /* gray-700 */
+  margin-bottom: 1rem;
+}
+
+.about-list {
+  list-style-type: disc;
+  list-style-position: inside;
+  color: #374151; /* gray-700 */
+  line-height: 1.5;
+}
+
+.about-list li {
+  margin-bottom: 0.5rem;
+}

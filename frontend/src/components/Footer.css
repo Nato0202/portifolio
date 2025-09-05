@@ -1,0 +1,28 @@
+.footer {
+  background-color: #2d3748; /* gray-800 */
+  color: white;
+  padding: 2rem 0;
+  text-align: center;
+}
+
+.footer-text {
+  color: #a0aec0; /* gray-400 */
+  margin: 0;
+}
+
+.footer-links {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+.footer-link {
+  color: #a0aec0; /* gray-400 */
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.footer-link:hover {
+  color: white;
+}
