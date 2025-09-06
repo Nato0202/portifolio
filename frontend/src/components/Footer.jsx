@@ -11,11 +11,11 @@ const Footer = () => {
       <div className="footer-container">
         <div className="footer-content">
           <p className="footer-text">
-            © 2024 Meu Portfólio.
+            © 2025 Meu Portfólio.
           </p>
           <div className="footer-links">
             <a
-              href="https://github.com"
+              href="https://github.com/Nato0202"
               target="_blank"
               rel="noopener noreferrer"
               className="footer-link"
@@ -23,18 +23,12 @@ const Footer = () => {
               GitHub
             </a>
             <a
-              href="https://linkedin.com"
+              href="https://www.linkedin.com/in/renan-nunes-1b148a370"
               target="_blank"
               rel="noopener noreferrer"
               className="footer-link"
             >
               LinkedIn
-            </a>
-            <a
-              href="mailto:seuemail@example.com"
-              className="footer-link"
-            >
-              Email
             </a>
           </div>
         </div>

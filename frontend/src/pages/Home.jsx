@@ -55,15 +55,15 @@ const Home = () => {
             className="stats-grid"
           >
             <div className="stat-item">
-              <h3 className="stat-number">10+</h3>
+              <h3 className="stat-number">3+</h3>
               <p className="stat-label">Projetos Completados</p>
             </div>
             <div className="stat-item">
-              <h3 className="stat-number">2+</h3>
+              <h3 className="stat-number">1+</h3>
               <p className="stat-label">Anos de Experiência</p>
             </div>
             <div className="stat-item">
-              <h3 className="stat-number">5+</h3>
+              <h3 className="stat-number">2+</h3>
               <p className="stat-label">Tecnologias Dominadas</p>
             </div>
           </motion.div>

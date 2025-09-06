@@ -31,7 +31,7 @@ const About = () => {
       </motion.p>
       <ul className="about-list">
         <li>JavaScript, React, Vite, CSS</li>
-        <li>Node.js, Express, SQLite</li>
+        <li>Node.js, Express, MySQL2</li>
         <li>Git, GitHub, Metodologias Ágeis</li>
         <li>Comunicação, Trabalho em equipe, Resolução de problemas</li>
       </ul>
