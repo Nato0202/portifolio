@@ -20,7 +20,7 @@ const ProjectCard = ({ project }) => {
           {project.description}
         </p>
         <div className="project-tags">
-          {project.tags.map((tag, index) => (
+          {project.tags && project.tags.length > 0 && project.tags.map((tag, index) => (
             <span
               key={index}
               className="project-tag"

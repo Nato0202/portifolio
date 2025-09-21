@@ -3,7 +3,6 @@
     "id": 1,
     "title": "E-commerce Platform",
     "description": "A full-stack e-commerce platform built with React and Node.js, featuring user authentication, product management, and payment integration.",
-    "tags": ["React", "Node.js", "MongoDB", "Stripe"],
     "githubUrl": "https://github.com/yourusername/ecommerce-platform",
     "demoUrl": "https://your-ecommerce-demo.com",
     "imageUrl": "/images/ecommerce.jpg"
@@ -12,7 +11,6 @@
     "id": 2,
     "title": "Task Management App",
     "description": "A collaborative task management application with real-time updates, drag-and-drop functionality, and team collaboration features.",
-    "tags": ["Vue.js", "Express", "Socket.io", "PostgreSQL"],
     "githubUrl": "https://github.com/yourusername/task-manager",
     "demoUrl": "https://your-task-manager-demo.com",
     "imageUrl": "/images/task-manager.jpg"
@@ -21,7 +19,6 @@
     "id": 3,
     "title": "Weather Dashboard",
     "description": "A responsive weather dashboard that displays current weather conditions and forecasts using data from multiple APIs.",
-    "tags": ["JavaScript", "HTML", "CSS", "Weather API"],
     "githubUrl": "https://github.com/yourusername/weather-dashboard",
     "demoUrl": "https://your-weather-demo.com",
     "imageUrl": "/images/weather.jpg"
@@ -30,7 +27,6 @@
     "id": 4,
     "title": "Portfolio Website",
     "description": "A modern portfolio website showcasing projects, skills, and experience with smooth animations and responsive design.",
-    "tags": ["React", "TailwindCSS", "Framer Motion"],
     "githubUrl": "https://github.com/yourusername/portfolio",
     "demoUrl": "https://your-portfolio-demo.com",
     "imageUrl": "/images/portfolio.jpg"

@@ -1,116 +1,104 @@
-# 🌐 Meu Portfólio Pessoal
+# Portfolio Frontend
 
-Este projeto é um **portfólio pessoal** dividido em duas partes:  
+Um portfólio pessoal moderno construído com React, apresentando projetos, informações de contato e design responsivo.
 
-- **Frontend:** desenvolvido em **React + Vite**, responsivo, moderno e com boa usabilidade.  
-- **Backend:** desenvolvido em **Node.js com Express**, responsável por fornecer os dados dos meus projetos já criados (tanto de frontend quanto de backend).  
+## 🚀 Tecnologias
 
----
+- **React 18** - Biblioteca JavaScript para interfaces de usuário
+- **Vite** - Build tool e dev server ultra-rápido
+- **React Router** - Roteamento para aplicações React
+- **Framer Motion** - Animações fluidas e interativas
+- **CSS3** - Estilização moderna e responsiva
 
-## 🎨 Funcionalidades do Frontend
+## 📁 Estrutura do Projeto
 
-- Página inicial apresentando meu nome, foto de perfil, título (ex: *"Desenvolvedor Fullstack"*) e uma breve descrição.  
-- Seção **Sobre mim** com informações profissionais, cursos e habilidades.  
-- Seção **Projetos** que consome a API do backend e exibe meus projetos em **cards** (com título, descrição, tags, link para GitHub e link para demo).  
-- Seção **Contato** com formulário funcional (nome, e-mail, mensagem), que envia os dados para o backend.  
-- Layout moderno com **TailwindCSS**.  
-- Rotas dinâmicas para exibir página de um projeto específico (`/projects/:id`).  
-- Animações leves com **Framer Motion**.  
-
----
-
-## ⚙️ Funcionalidades do Backend
-
-- API em **Node.js + Express**.  
-- Endpoint `GET /projects` → retorna todos os projetos.  
-- Endpoint `GET /projects/:id` → retorna detalhes de um único projeto.  
-- Endpoint `POST /contact` → recebe mensagens do formulário e salva em arquivo JSON ou banco de dados simples (SQLite ou MongoDB).  
-- Estrutura organizada em **rotas, controllers e middlewares**.  
-
----
-
-## 📂 Estrutura de Pastas
-
-meu-portfolio/
-│── backend/ # API Node.js + Express
-│── frontend/ # Site React + Vite
-│── README.md
-
-
-### 📂 Backend
-
-
-backend/
-│── package.json
-│── server.js
-│── config/
-│ └── db.js
-│── routes/
-│ ├── projects.js
-│ └── contact.js
-│── controllers/
-│ ├── projectsController.js
-│ └── contactController.js
-│── models/
-│ ├── Project.js
-│ └── Message.js
-│── data/
-│ └── projects.json
-│── utils/
-│ └── logger.js
-
-
-### 📂 Frontend
-
-
+```
 frontend/
-│── package.json
-│── vite.config.js
-│── index.html
-│── src/
-│ ├── main.jsx
-│ ├── App.jsx
-│ ├── assets/
-│ ├── components/
-│ │ ├── Navbar.jsx
-│ │ ├── Footer.jsx
-│ │ ├── ProjectCard.jsx
-│ │ └── ContactForm.jsx
-│ ├── pages/
-│ │ ├── Home.jsx
-│ │ ├── About.jsx
-│ │ ├── Projects.jsx
-│ │ ├── ProjectDetails.jsx
-│ │ └── Contact.jsx
-│ ├── services/
-│ │ └── api.js
-│ ├── styles/
-│ │ └── global.css
-│ ├── hooks/
-│ │ └── useFetch.js
+├── src/
+│   ├── components/     # Componentes reutilizáveis
+│   ├── pages/         # Páginas da aplicação
+│   ├── data/          # Dados mockados dos projetos
+│   ├── services/      # Serviços e utilitários
+│   ├── styles/        # Estilos globais
+│   └── assets/        # Imagens e recursos estáticos
+├── index.html         # Template HTML principal
+└── vite.config.js     # Configuração do Vite
+```
 
+## 🛠️ Instalação e Execução
 
----
+### Pré-requisitos
+- Node.js (versão 16 ou superior)
+- npm ou yarn
 
-## 🌐 Endpoints da API
+### Instalação
+```bash
+cd frontend
+npm install
+```
 
-- `GET /projects` → lista todos os projetos.  
-- `GET /projects/:id` → retorna detalhes de um projeto específico.  
-- `POST /contact` → recebe dados do formulário de contato.  
+### Execução em Desenvolvimento
+```bash
+npm run dev
+```
 
----
+A aplicação estará disponível em `http://localhost:5173`
+
+### Build para Produção
+```bash
+npm run build
+```
+
+Os arquivos otimizados serão gerados na pasta `dist/`
+
+## 📱 Funcionalidades
+
+- **Página Inicial** - Apresentação pessoal com animações
+- **Projetos** - Galeria de projetos com dados mockados
+- **Sobre** - Informações pessoais e habilidades
+- **Contato** - Formulário de contato (simulado)
+- **Design Responsivo** - Compatível com desktop e mobile
+- **Animações Suaves** - Transições fluidas com Framer Motion
+
+## 🎨 Personalização
+
+### Adicionar Novos Projetos
+1. Edite o arquivo `src/data/projects.json`
+2. Adicione um novo objeto seguindo o formato existente:
+```json
+{
+  "id": 5,
+  "title": "Nome do Projeto",
+  "description": "Descrição do projeto",
+  "tags": ["React", "Node.js"],
+  "githubUrl": "https://github.com/...",
+  "demoUrl": "https://demo.com",
+  "imageUrl": "/images/projeto.jpg"
+}
+```
+
+### Modificar Dados Pessoais
+- Edite os componentes em `src/pages/` para atualizar informações pessoais
+- Modifique `src/pages/Home.jsx` para alterar a apresentação inicial
+
+## 📄 Scripts Disponíveis
+
+- `npm run dev` - Inicia o servidor de desenvolvimento
+- `npm run build` - Cria a build de produção
+- `npm run preview` - Visualiza a build de produção localmente
+- `npm run lint` - Executa o linter para verificar código
 
 ## 🚀 Deploy
 
-- **Frontend:** recomendado usar [Vercel](https://vercel.com/).  
-- **Backend:** recomendado usar [Render](https://render.com/) ou [Railway](https://railway.app/).  
+O projeto pode ser facilmente deployado em plataformas como:
+- Vercel
+- Netlify
+- GitHub Pages
+- Qualquer servidor web estático
 
----
+## 📝 Notas
 
-## 📌 Observações
-
-- Código bem organizado, com comentários explicando as partes principais.  
-- Estrutura pensada para ser **escalável** e fácil de manter.  
-- Ideal para mostrar seus **projetos de frontend e backend** em um só lugar.  
-
----
+- Este projeto foi convertido de uma aplicação full-stack para frontend-only
+- Os dados dos projetos são mockados localmente
+- O formulário de contato é simulado (não envia emails reais)
+- Todas as dependências do backend foram removidas

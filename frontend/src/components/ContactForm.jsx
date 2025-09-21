@@ -1,6 +1,5 @@
 import { useState } from 'react';
 import { motion } from 'framer-motion';
-import axios from 'axios';
 import './ContactForm.css';
 
 const ContactForm = () => {
@@ -25,8 +24,9 @@ const ContactForm = () => {
     setSubmitMessage('');
 
     try {
-      const response = await axios.post('/api/contact', formData);
-      setSubmitMessage('Mensagem enviada com sucesso!');
+      // Simular envio local ao invés de usar API
+      await new Promise(resolve => setTimeout(resolve, 1000));
+      setSubmitMessage('Mensagem enviada com sucesso! (Simulação)');
       setFormData({ name: '', email: '', message: '' });
     } catch (error) {
       setSubmitMessage('Erro ao enviar mensagem. Tente novamente.');
