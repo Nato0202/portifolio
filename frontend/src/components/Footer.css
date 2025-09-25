@@ -18,11 +18,32 @@
 }
 
 .footer-link {
-  color: #a0aec0; /* gray-400 */
+  color: #63b3ed;
   text-decoration: none;
-  transition: color 0.2s ease;
+  font-weight: bold;
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.footer-link::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(99, 179, 237, 0.3), transparent);
+  transition: left 0.5s;
 }
 
 .footer-link:hover {
-  color: white;
+  color: #3182ce;
+  text-decoration: underline;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+.footer-link:hover::before {
+  left: 100%;
 }
