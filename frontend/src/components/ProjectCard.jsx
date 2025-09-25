@@ -46,12 +46,6 @@ const ProjectCard = ({ project }) => {
           >
             Demo
           </a>
-          <Link
-            to={`/projects/${project.id}`}
-            className="project-link details-link"
-          >
-            Detalhes
-          </Link>
         </div>
       </div>
     </motion.div>

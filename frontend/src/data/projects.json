@@ -1,10 +1,10 @@
 [
   {
     "id": 1,
-    "title": "Em produção",
-    "description": "...",
-    "githubUrl": "...",
-    "demoUrl": "...",
+    "title": "Feira de Profissões ISNSF",
+    "description": "Desenvolvi o site Feira de Profissões, uma plataforma full-stack para promover a feira de profissões da instituição Frei em São Paulo. Os visitantes exploram cursos técnicos como Administração, Informática e Eletrotécnica através de um carrossel interativo, registram-se para o evento de 20/05/2025 e acessam informações de local, horário e mapa. Construído com React/Vite no frontend e Node.js/Express/MySQL no backend, oferece autenticação JWT segura e funcionalidades de busca.",
+    "githubUrl": "https://github.com/Nato0202/feira-profissoes",
+    "demoUrl": "https://feira-profissoes-beta.vercel.app",
     "imageUrl": "/images/project.jpg"
   }
 ]
