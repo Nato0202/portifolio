@@ -10,9 +10,6 @@ const Footer = () => {
     >
       <div className="footer-container">
         <div className="footer-content">
-          <p className="footer-text">
-            © 2025 Meu Portfólio.
-          </p>
           <div className="footer-links">
             <a
               href="https://github.com/Nato0202"
@@ -31,6 +28,9 @@ const Footer = () => {
               LinkedIn
             </a>
           </div>
+          <p className="footer-text">
+            © 2025 Meu Portfólio.
+          </p>
         </div>
       </div>
     </motion.footer>
