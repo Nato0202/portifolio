@@ -16,7 +16,7 @@ const Home = () => {
           >
             <div className="hero-avatar">
               <span className="hero-avatar-icon">
-                <img src="/images/eu.png" alt="" />
+                <img src="/assets/images/eu.png" alt="" />
               </span>
             </div>
             <h1 className="hero-title">
