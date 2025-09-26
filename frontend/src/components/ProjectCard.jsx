@@ -10,7 +10,11 @@ const ProjectCard = ({ project }) => {
       className="project-card"
     >
       <div className="project-image">
-        <span className="project-image-text">Imagem do Projeto</span>
+        <img
+          src={project.imageUrl}
+          alt={project.title}
+          className="project-image-img"
+        />
       </div>
       <div className="project-content">
         <h3 className="project-title">

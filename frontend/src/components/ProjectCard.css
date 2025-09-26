@@ -13,13 +13,22 @@
 .project-image {
   height: 12rem;
   background-color: #e2e8f0; /* gray-200 */
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.project-image-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .project-image-text {
   color: #a0aec0; /* gray-500 */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .project-content {
