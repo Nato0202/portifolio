@@ -48,7 +48,11 @@ const ProjectDetails = () => {
         className="bg-white rounded-lg shadow-lg overflow-hidden"
       >
         <div className="h-64 bg-gray-200 flex items-center justify-center">
-          <span className="text-gray-500 text-xl">Imagem do Projeto</span>
+          <img
+            src={project.imageUrl}
+            alt={project.title}
+            className="max-h-full max-w-full object-cover rounded-lg"
+          />
         </div>
         <div className="p-8">
           <h1 className="text-3xl font-bold mb-4">{project.title}</h1>
