@@ -15,7 +15,9 @@ const Home = () => {
             className="hero-content"
           >
             <div className="hero-avatar">
-              <span className="hero-avatar-icon">👤</span>
+              <span className="hero-avatar-icon">
+                <img src="/images/eu.png" alt="" />
+              </span>
             </div>
             <h1 className="hero-title">
               Olá, eu sou Renan
