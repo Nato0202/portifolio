@@ -1,5 +1,5 @@
-import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
+import PropTypes from 'prop-types';
 import './ProjectCard.css';
 
 const ProjectCard = ({ project }) => {
@@ -54,6 +54,17 @@ const ProjectCard = ({ project }) => {
       </div>
     </motion.div>
   );
+};
+
+ProjectCard.propTypes = {
+  project: PropTypes.shape({
+    imageUrl: PropTypes.string.isRequired,
+    title: PropTypes.string.isRequired,
+    description: PropTypes.string.isRequired,
+    tags: PropTypes.arrayOf(PropTypes.string),
+    githubUrl: PropTypes.string.isRequired,
+    demoUrl: PropTypes.string.isRequired,
+  }).isRequired,
 };
 
 export default ProjectCard;
