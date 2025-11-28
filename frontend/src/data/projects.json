@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "title: "TCC TecVagas",
+    "title": "TCC TecVagas",
     "description": "placeholder",
     "githubUrl": "https://github.com/Nato0202/TCC-FREI.git",
     "demoUrl": "https://tecvagas.vercel.app/",
@@ -18,7 +18,7 @@
   },
   {
     "id": 3,
-    "title: "LogSoap",
+    "title": "LogSoap",
     "description": "placeholder",
     "githubUrl": "https://github.com/Nato0202/LogSoap.git",
     "demoUrl": "https://logsoap.vercel.app/",
