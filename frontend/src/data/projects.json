@@ -1,11 +1,27 @@
 [
   {
     "id": 1,
+    "title: "TCC TecVagas",
+    "description": "placeholder",
+    "githubUrl": "https://github.com/Nato0202/TCC-FREI.git",
+    "demoUrl": "https://tecvagas.vercel.app/",
+    "tags":["React", "Vite", "Node.js", "Express", "MySQL"]
+  },
+  {
+    "id": 2,
     "title": "Feira de Profissões ISNSF",
     "description": "Desenvolvi o site Feira de Profissões, uma plataforma full-stack para promover a feira de profissões da instituição Frei em São Paulo. Construído com React/Vite no frontend e Node.js/Express/MySQL no backend.",
     "githubUrl": "https://github.com/Nato0202/feira-profissoes",
     "demoUrl": "https://feira-profissoes-beta.vercel.app",
     "imageUrl": "/assets/images/feira.png",
     "tags": ["React", "Vite", "Node.js", "Express", "MySQL"]
+  },
+  {
+    "id": 3,
+    "title: "LogSoap",
+    "description": "placeholder",
+    "githubUrl": "https://github.com/Nato0202/LogSoap.git",
+    "demoUrl": "https://logsoap.vercel.app/",
+    "tags":["React", "Vite", "Node.js", "Express", "MySQL"]
   }
 ]
