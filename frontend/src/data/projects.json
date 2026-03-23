@@ -20,7 +20,7 @@
   {
     "id": 3,
     "title": "LogSoap",
-    "description": "placeholder",
+    "description": "Desenvolvi o site Logsoap, para promover a venda de sabão em pó artesanal. O projeto é construído com React/Vite no frontend.",
     "githubUrl": "https://github.com/Nato0202/LogSoap.git",
     "demoUrl": "https://logsoap.vercel.app/",
     "imageUrl": "/assets/images/logsoap.png",
