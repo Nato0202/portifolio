@@ -2,9 +2,10 @@
   {
     "id": 1,
     "title": "TCC TecVagas",
-    "description": "placeholder",
+    "description": "Site desenvolvido para o meu Trabalho de Conclusão de Curso (TCC) na instituição Frei em São Paulo. O projeto é uma plataforma full-stack construída com React/Vite no frontend e Node.js/Express/MySQL no backend, destinada a conectar estudantes e profissionais com oportunidades de estágio e emprego.",
     "githubUrl": "https://github.com/Nato0202/TCC-FREI.git",
     "demoUrl": "https://tecvagas.vercel.app/",
+    "imageUrl": "/assets/images/tecvagas.png",
     "tags":["React", "Vite", "Node.js", "Express", "MySQL"]
   },
   {
@@ -22,6 +23,7 @@
     "description": "placeholder",
     "githubUrl": "https://github.com/Nato0202/LogSoap.git",
     "demoUrl": "https://logsoap.vercel.app/",
+    "imageUrl": "/assets/images/logsoap.png",
     "tags":["React", "Vite", "Node.js", "Express", "MySQL"]
   }
 ]
